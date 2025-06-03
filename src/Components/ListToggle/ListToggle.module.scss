@@ -1,0 +1,14 @@
+.toggle {
+    transform: rotate(-90deg);
+    transition: transform 0.2s linear;
+
+    &.active {
+        transform: rotate(0);
+    }
+
+    &>svg {
+        width: 30px;
+        height: 30px;
+        fill: #e6e6e6;
+    }
+}

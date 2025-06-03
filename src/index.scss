@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(246, 246, 246);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding-bottom: 100px;
+}
+
+body,
+p,
+h1 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  outline: none;
+}

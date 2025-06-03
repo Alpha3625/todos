@@ -1,0 +1,41 @@
+.field {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(110, 110, 110, 0.2);
+    background-color: #ffffff;
+
+    @media screen and (max-width: 766px) {
+        padding: 10px 5px;
+    }
+
+    &>input {
+        width: 100%;
+        height: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+
+        &::placeholder {
+            font-weight: 100;
+            font-size: 18px;
+            color: #e6e6e6;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-left: 5px;
+        }
+    }
+}
+
+.addButton {
+    display: none;
+    font-weight: 600;
+    color: #333333;
+    background-color: #e3cfce;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    @media screen and (max-width: 1024px) {
+        display: block;
+    }
+}
