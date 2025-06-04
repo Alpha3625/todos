@@ -44,11 +44,11 @@
         }
 
         &.completed {
-            color: #dad9d9;
+            color: #b7b7b7;
 
             &::before {
                 width: 100%;
-                border-color: #dad9d9;
+                border-color: #b7b7b7;
             }
         }
     }
