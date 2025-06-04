@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://alpha3625.github.io/todos",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -13,6 +12,7 @@
     "preview": "vite preview",
     "test": "jest"
   },
+  "homepage": "https://alpha3625.github.io/todos/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@types/react-redux": "^7.1.34",
