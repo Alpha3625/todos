@@ -1,18 +1,4 @@
 {
-    "compilerOptions": {
-    "target": "ES6",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist",
-    "baseUrl": "./src",
-    "resolveJsonModule": true,
-    "isolatedModules": true
-  },
-  "exclude": ["node_modules"],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
