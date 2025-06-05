@@ -14,11 +14,11 @@
 
 ### 💻 Desktop
 <div align="center">
-    <img width="400px" height="270px" src="https://github.com/user-attachments/assets/79eeb07e-d366-4fe4-83dd-65d5599a720d"/>
+    <img width="600px" height="270px" src="https://github.com/user-attachments/assets/79eeb07e-d366-4fe4-83dd-65d5599a720d"/>
 </div>
 ### 📱 Mobile
 <div align="center">
-    <img height="350px" src="https://github.com/user-attachments/assets/4da5cdb3-34a7-44a2-bc95-918b7bb0d4a3"/>
+    <img height="400px" src="https://github.com/user-attachments/assets/4da5cdb3-34a7-44a2-bc95-918b7bb0d4a3"/>
 </div>
 
 ## Особенности интерфейса
