@@ -14,7 +14,7 @@
 
 ### 💻 Desktop
 <div align="center">
-    <img width="600px" height="270px" src="https://github.com/user-attachments/assets/79eeb07e-d366-4fe4-83dd-65d5599a720d"/>
+    <img width="400px" height="270px" src="https://github.com/user-attachments/assets/ae46da43-e8c4-457b-8b03-fd6a0d900107"/>
 </div>
 ### 📱 Mobile
 <div align="center">
