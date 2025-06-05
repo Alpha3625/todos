@@ -14,7 +14,7 @@
         opacity: 1;
     }
 
-    @media screen and (max-width: 766px) {
+    @media screen and (max-width: 600px) {
         padding: 10px;
     }
 
@@ -31,16 +31,24 @@
         transition: color 0.4s linear;
         position: relative;
 
+        @media screen and (max-width: 600px) {
+            font-size: 15px;
+        }
+
         &::before {
             width: 0;
             content: "";
             display: block;
-            border: 1px solid transparent;
+            border: 0.50px solid transparent;
             transition: border .4s linear, width .4s linear;
             position: absolute;
             top: 12px;
             right: 0;
             left: 0;
+
+            @media screen and (max-width: 600px) {
+                top: 9px;
+            }
         }
 
         &.completed {
