@@ -1,5 +1,31 @@
 <h1 align="center">Список дел "Todos"</h1>
 
+## Процесс запуска
+1. Клонировать репозиторий:
+    ```bash
+        git clone https://github.com/Alpha3625/todos.git
+    ```
+
+2. Установить необходимые пакеты:
+    ```bash
+        npm install или npm i
+    ```
+    
+4. Запустить проект:
+    ```bash
+        npm run start
+    ```
+
+5. Запустить test:
+    ```bash
+        npm run test или npm test
+    ```
+
+6. После запуска приложения вы можете открыть его в браузере по следующему URL:
+    ```bash
+        http://localhost:5173
+    ```
+
 <p align="center">
     <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=html,sass,vite,react,ts,jest" />
