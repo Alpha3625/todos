@@ -1,6 +1,6 @@
 <h1 align="center">Список дел "Todos"</h1>
 
-## Команды git
+## Команды
 1. Клонировать репозиторий:
     ```bash
         git clone https://github.com/Alpha3625/todos.git
