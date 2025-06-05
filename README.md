@@ -1,6 +1,6 @@
 <h1 align="center">Список дел "Todos"</h1>
 
-## Процесс запуска
+## Команды git
 1. Клонировать репозиторий:
     ```bash
         git clone https://github.com/Alpha3625/todos.git
@@ -16,14 +16,14 @@
         npm run start
     ```
 
-5. Запустить test:
-    ```bash
-        npm run test или npm test
-    ```
-
-6. После запуска приложения вы можете открыть его в браузере по следующему URL:
+5. После запуска приложения вы можете открыть его в браузере по следующему URL:
     ```bash
         http://localhost:5173
+    ```
+    
+6. Запустить test:
+    ```bash
+        npm run test или npm test
     ```
 
 <p align="center">
