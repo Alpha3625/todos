@@ -1,6 +1,7 @@
 .toggle {
     transform: rotate(-90deg);
     transition: transform 0.2s linear;
+    cursor: pointer;
 
     &.active {
         transform: rotate(0);

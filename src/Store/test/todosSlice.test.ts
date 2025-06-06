@@ -3,7 +3,7 @@ import todosReducer, { addTodo, completeTodo, clearCompleted, listToggle, listFi
 describe('todosSlice', () => {
   const initialState = {
     list: [],
-    isOpen: false,
+    isOpen: true,
     filterStatus: 'all',
     field: '',
   };
@@ -52,10 +52,10 @@ describe('todosSlice', () => {
     const action = listToggle();
     const nextState = todosReducer(initialState, action);
 
-    expect(nextState.isOpen).toBe(true);
+    expect(nextState.isOpen).toBe(false);
 
     const nextToggleState = todosReducer(nextState, action);
-    expect(nextToggleState.isOpen).toBe(false);
+    expect(nextToggleState.isOpen).toBe(true);
   });
 
   it('should handle listFilter', () => {

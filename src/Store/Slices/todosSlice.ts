@@ -9,7 +9,7 @@ interface ITodosState {
 
 const initialState: ITodosState = {
     list: JSON.parse(localStorage.getItem('list') || '[]'),
-    isOpen: JSON.parse(localStorage.getItem('listIsOpen') || 'false'),
+    isOpen: JSON.parse(localStorage.getItem('listIsOpen') || 'true'),
     filterStatus: JSON.parse(localStorage.getItem('filterStatus') || '"all"'),
     field: '',
 }

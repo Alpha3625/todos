@@ -8,7 +8,7 @@
     align-items: center;
     gap: 15px;
     opacity: 0;
-    transition: opacity 0.4s linear;
+    transition: opacity .4s linear;
 
     &.active {
         opacity: 1;
@@ -28,7 +28,7 @@
 
     &__text {
         color: #333333;
-        transition: color 0.4s linear;
+        transition: color .4s linear;
         position: relative;
 
         @media screen and (max-width: 600px) {
@@ -39,8 +39,8 @@
             width: 0;
             content: "";
             display: block;
-            border: 0.50px solid transparent;
-            transition: border .4s linear, width .4s linear;
+            border: 1px solid transparent;
+            transition: border-color .4s linear, width .4s linear;
             position: absolute;
             top: 12px;
             right: 0;
