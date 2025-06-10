@@ -39,7 +39,7 @@
 ## 📸 Screenshots
 
 <div align="center">
-    <img width="500px" height="300px" src="https://github.com/user-attachments/assets/244bbbdd-8121-418d-a9a7-8c8ea63f3522"/>
+    <img width="500px" src="https://github.com/user-attachments/assets/244bbbdd-8121-418d-a9a7-8c8ea63f3522"/>
     <img height="300px" src="https://github.com/user-attachments/assets/fc19bb7d-7678-46e6-ab6b-c77d45dd3864"/>
 </div>
 
