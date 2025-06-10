@@ -1,10 +1,8 @@
 .item {
-    font-weight: 300;
-    font-size: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: #ffffff;
+    height: 60px;
     display: flex;
-    height: 50px;
     align-items: center;
     gap: 15px;
     opacity: 0;
@@ -12,10 +10,6 @@
 
     &.active {
         opacity: 1;
-    }
-
-    @media screen and (max-width: 600px) {
-        padding: 10px;
     }
 
     &:nth-child(2n) {
@@ -28,36 +22,19 @@
 
     &__text {
         color: #333333;
+        font-weight: 300;
+        font-size: 20px;
+        word-break: break-all;
         transition: color .4s linear;
         position: relative;
 
-        @media screen and (max-width: 600px) {
-            font-size: 15px;
-        }
-
-        &::before {
-            width: 0;
-            content: "";
-            display: block;
-            border: 1px solid transparent;
-            transition: border-color .4s linear, width .4s linear;
-            position: absolute;
-            top: 12px;
-            right: 0;
-            left: 0;
-
-            @media screen and (max-width: 600px) {
-                top: 9px;
-            }
-        }
-
         &.completed {
             color: #b7b7b7;
+            text-decoration: line-through;
+        }
 
-            &::before {
-                width: 100%;
-                border-color: #b7b7b7;
-            }
+        @media screen and (max-width: 600px) {
+            font-size: 13px;
         }
     }
 }

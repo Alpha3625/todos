@@ -28,11 +28,12 @@ export const Field = () => {
                 type="text"
                 name="field"
                 value={field}
+                maxLength={106}
                 onChange={(e) => dispatch(setField(e.target.value))}
                 placeholder="What needs to be done?"
                 onKeyDown={handleKeyDown}/>
             
-            <button className={styles.addButton} onClick={handleAddTodo}>add</button>
+            <button className={styles.addButton} type="button" onClick={handleAddTodo}>add</button>
         </div>
     );
 };

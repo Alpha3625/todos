@@ -6,12 +6,23 @@
     border-radius: 50%;
     padding-top: 4px;
     cursor: pointer;
+    flex-shrink: 0;
+
+    @media screen and (max-width: 320px) {
+        width: 25px;
+        height: 25px;
+    }
 
     &>img {
         visibility: hidden;
         width: 20px;
         height: 20px;
         margin: 0 auto;
+
+        @media screen and (max-width: 320px) {
+            width: 15px;
+            height: 15px;
+        }
     }
 
     &.active>img {

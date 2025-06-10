@@ -14,7 +14,7 @@ export const List = () => {
     });
 
     const listHeight = listIsOpen && handleFilter.length < 1 ? 150 
-                    : listIsOpen ? Math.min(handleFilter.length < 7 ? handleFilter.length * 50 : 300) 
+                    : listIsOpen ? Math.min(handleFilter.length < 7 ? handleFilter.length * 60 : 360) 
                     : 0;
 
     return (
