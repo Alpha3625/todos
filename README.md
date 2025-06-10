@@ -38,15 +38,9 @@
 
 ## 📸 Screenshots
 
-### 💻 Desktop
 <div align="center">
     <img width="500px" height="300px" src="https://github.com/user-attachments/assets/244bbbdd-8121-418d-a9a7-8c8ea63f3522"/>
-    <img width="500px" height="300px" src="https://github.com/user-attachments/assets/ae46da43-e8c4-457b-8b03-fd6a0d900107"/>
-</div>
-### 📱 Mobile
-<div align="center">
     <img height="400px" src="https://github.com/user-attachments/assets/fc19bb7d-7678-46e6-ab6b-c77d45dd3864"/>
-    <img height="400px" src="https://github.com/user-attachments/assets/4da5cdb3-34a7-44a2-bc95-918b7bb0d4a3"/>
 </div>
 
 ## Особенности интерфейса
