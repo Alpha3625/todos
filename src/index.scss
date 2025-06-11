@@ -29,3 +29,12 @@ button {
   border: none;
   outline: none;
 }
+
+a,
+button,
+div[class],
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
