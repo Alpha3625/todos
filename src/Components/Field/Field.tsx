@@ -1,4 +1,4 @@
-import {KeyboardEvent, useCallback} from 'react';
+import { KeyboardEvent, useCallback } from 'react';
 import styles from './Field.module.scss';
 import { useAppDispatch, useAppSelector } from "../../Store/hooks";
 import { addTodo, setField } from '../../Store/Slices/todosSlice';
@@ -20,7 +20,7 @@ export const Field = () => {
             handleAddTodo();
         }
     }, [handleAddTodo]);
-    
+
     return (
         <div className={styles.field}>
             <ListToggle />
@@ -31,9 +31,13 @@ export const Field = () => {
                 maxLength={106}
                 onChange={(e) => dispatch(setField(e.target.value))}
                 placeholder="What needs to be done?"
-                onKeyDown={handleKeyDown}/>
-            
-            <button className={styles.addButton} type="button" onClick={handleAddTodo}>add</button>
+                onKeyDown={handleKeyDown} />
+
+            {
+                field
+                    ? <button className={styles.addButton} type="button" onClick={handleAddTodo}>add</button>
+                    : ''
+            }
         </div>
     );
 };
