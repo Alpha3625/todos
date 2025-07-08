@@ -40,7 +40,7 @@
 
 <div align="center">
     <img width="500px" src="https://github.com/user-attachments/assets/244bbbdd-8121-418d-a9a7-8c8ea63f3522"/>
-    <img height="300px" src=""/>
+    <img height="300px" src="https://github.com/user-attachments/assets/b14fcbcc-e7de-4d8f-a234-37a3a1e7a34b"/>
 </div>
 
 ## Особенности интерфейса
