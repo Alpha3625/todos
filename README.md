@@ -40,7 +40,7 @@
 
 <div align="center">
     <img width="500px" src="https://github.com/user-attachments/assets/244bbbdd-8121-418d-a9a7-8c8ea63f3522"/>
-    <img height="300px" src="https://github.com/user-attachments/assets/fc19bb7d-7678-46e6-ab6b-c77d45dd3864"/>
+    <img height="300px" src=""/>
 </div>
 
 ## Особенности интерфейса
@@ -52,3 +52,4 @@
 - Количество оставшихся задач
 - Очистка выполненных
 - Кнопка открыть / закрыть список
+- Для добавления новой задачи просто нажмите клавишу "Enter" >или кнопку "add", которая станет доступной, когда поле ввода будет заполнено. 
